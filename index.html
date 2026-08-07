@@ -1,54 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Gym Progress</title>
 
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <h1>🏋️ Gym Progress</h1>
+        <h1>🏋️ Gym Progress</h1>
 
-    <p>
-        Gym Progress is a mobile application for tracking workouts,
-        monitoring exercise progress and securely backing up your data.
-    </p>
+        <p class="subtitle">
+            Track your workouts. Monitor your progress. Keep your data safe.
+        </p>
 
-    <h2>Features</h2>
+        <section>
 
-    <ul>
-        <li>Workout tracking</li>
-        <li>Exercise history</li>
-        <li>Statistics and charts</li>
-        <li>SQLite local storage</li>
-        <li>Optional Google Drive backup</li>
-    </ul>
+            <h2>About</h2>
 
-    <h2>Privacy</h2>
+            <p>
+                <strong>Gym Progress</strong> is a mobile fitness application that helps users
+                record workouts, track exercise performance, and monitor progress over time.
+            </p>
 
-    <p>
-        Your workout data is stored locally on your device.
-        If you enable Google Drive backup,
-        your backup is stored in your own private Google Drive AppData folder.
-    </p>
+            <p>
+                All workout data is stored locally on your device using SQLite.
+                Users can optionally enable secure cloud backups using their own
+                Google Drive account, allowing seamless data restoration when
+                changing devices or reinstalling the application.
+            </p>
 
-    <p>
-        We do not collect, access or store your workout data.
-    </p>
+        </section>
 
-    <div class="links">
+        <section>
 
-        <a href="privacy.html">Privacy Policy</a>
+            <h2>Features</h2>
 
-        <a href="terms.html">Terms of Service</a>
+            <ul>
+
+                <li>🏋️ Record workout results</li>
+
+                <li>📈 Progress charts and statistics</li>
+
+                <li>📅 Workout history</li>
+
+                <li>💪 Personal exercise library</li>
+
+                <li>📱 Local SQLite database</li>
+
+                <li>☁️ Secure Google Drive backups</li>
+
+                <li>🔄 Automatic cloud synchronization (optional)</li>
+
+            </ul>
+
+        </section>
+
+        <section>
+
+            <h2>Privacy</h2>
+
+            <p>
+                Your workout data belongs only to you.
+            </p>
+
+            <p>
+                Gym Progress does not collect, store, or access your workout history.
+            </p>
+
+            <p>
+                When cloud backup is enabled, backup files are stored only in your
+                private Google Drive AppData folder.
+                The developer cannot access, read, or modify these files.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h2>Google Sign-In</h2>
+
+            <p>
+                Google Sign-In is used exclusively to:
+            </p>
+
+            <ul>
+
+                <li>Authenticate your Google account.</li>
+
+                <li>Create and update backup files.</li>
+
+                <li>Restore backup data.</li>
+
+                <li>Delete backup files if requested.</li>
+
+            </ul>
+
+            <p>
+                The application never accesses other files stored in your Google Drive.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h2>Technologies</h2>
+
+            <ul>
+
+                <li>React Native</li>
+
+                <li>Expo</li>
+
+                <li>SQLite</li>
+
+                <li>Google Sign-In</li>
+
+                <li>Google Drive AppData API</li>
+
+            </ul>
+
+        </section>
+
+        <section>
+
+            <h2>Support</h2>
+
+            <p>
+                Contact:
+                <a href="mailto:tsystanov.vitaly@gmail.com">
+                    tsystanov.vitaly@gmail.com
+                </a>
+            </p>
+
+        </section>
+
+        <div class="buttons">
+
+            <a class="button" href="privacy.html">
+                Privacy Policy
+            </a>
+
+            <a class="button" href="terms.html">
+                Terms of Service
+            </a>
+
+        </div>
 
     </div>
 
-</div>
-
 </body>
+
 </html>
